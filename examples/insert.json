@@ -1,0 +1,9 @@
+{
+  "": {
+    "name": "Fictional example",
+    "active": true,
+    "tags": ["example"],
+    "contact": {"email": null},
+    "attributes": {}
+  }
+}

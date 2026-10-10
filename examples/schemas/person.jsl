@@ -1,0 +1,12 @@
+# Fictional generic example; not a professional or service-specific schema.
+$S_contact = o[s, t] {
+  email?: s | n
+}
+
+$S_person = o[s, t] {
+  name: s
+  active: b
+  tags: a[s]
+  contact: $S_contact
+  attributes: o[s, t]
+}
